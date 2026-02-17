@@ -122,12 +122,60 @@
 }
 
 .banner-card p{
-     color: #d8d8d8;
+     color: #d8d8d880;
      font-size: 1rem;
      font-weight: normal;
      margin-bottom: 24px;
 
 }
+
+.about-container{
+     max-width: 1200px;
+     margin: 0 auto;
+     text-align: center;
+     
+}
+
+.about-container h2{
+     
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-text{
+     font-size: 1rem;
+     font-weight: normal;
+     color: #d8d8d880;
+     margin-top: 16px;
+     line-height: 2;
+}
+
+.about-text-2{
+     color: #d8d8d880 ;
+     margin-top: 50px;
+     margin-bottom: 80px;
+}
+
+.card{
+     display: flex;
+     gap: 80px;
+     justify-content: space-between;
+     margin-top: 80px;
+     text-align: center;
+     padding-bottom: 120px;
+}
+
+.about-card h2{
+     color: #00FF88;
+     font-size: 3rem;
+     font-weight: 800;
+}
+
+.about-card p{
+     color: #d8d8d880;
+     
+}
+
 
 .gradient-color{
      
