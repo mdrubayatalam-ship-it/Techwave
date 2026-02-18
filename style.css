@@ -360,6 +360,155 @@ color: #d8d8d880;
    
 }
 
+.text-center{
+      text-align: center;
+}
+
+.Feature-container{
+      max-width: 1200px;
+      margin: 0 auto;
+     padding-top: 120px;
+
+}
+
+.Feature-container h2{
+      font-size: 3rem;
+      font-weight: 700;
+      padding-bottom: 40px;
+}
+
+.flex{
+      display: flex;
+      justify-content: space-between;
+}
+
+.feature-card{
+      max-width: 380px;
+      background-color: #230E3D;
+      border-radius: 40px;
+      height: 440px;
+      margin-bottom: 120px;
+      
+      
+
+}
+
+.feature-episode h3{
+          
+     font-size: 24px;
+     padding: 24px 24px 12px 24px;
+}
+
+.feature-episode p{
+          
+     font-size: 1rem;
+     padding: 0 24px 12px 24px;
+}
+
+.time{
+  
+     padding: 0 24px 24px 24px;
+     display: flex;
+     align-items: center;
+     flex-wrap: nowrap;
+     gap: 10px;
+     
+     
+}
+
+.time span{
+      margin: 0;
+}
+
+.time img{
+      display: block;
+      margin: 0;
+}
+
+
+.feature-episode iframe{
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+}
+
+.video{
+      position: relative;
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+      overflow: hidden;
+}
+
+.video iframe{
+      width: 100%;
+      height: 220px;
+      display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-image: linear-gradient(45deg,#F7E93F 5%,#FB09B4 51%,#9100F8 100%);
+  cursor: pointer;
+}
+
+.play-button:hover{
+
+     background-image: linear-gradient(45deg,#F7E93F 10%,#FB09B4 4%,#9100F8 10% );
+     color: #FFFF;
+      
+}
+
+.host-card{
+      gap: 24px;
+      background-color: #230E3D;
+      border-radius: 40px;
+      padding: 40px;
+}
+
+.host-text p{
+      margin-bottom: 16px;
+}
+.host-icon{
+        
+display: flex;
+gap: 8px;
+
+      
+
+}
+.icon-circle{
+      border: 1px solid #533C72;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     text-decoration: none;
+     transition: 0.5s;     
+}
+
+.icon-circle img{
+      width: 18px;
+      height: 18px;
+      object-fit: contain;
+      display: block;
+}
+
+.icon-circle:hover{
+      background-color: rgb(228, 218, 199);
+}
+
 
 
 .gradient-color{
